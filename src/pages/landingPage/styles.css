@@ -1,0 +1,261 @@
+
+
+.landing-global {
+    /* background-color: #F2FAFF; */
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    overflow-x: hidden;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px;
+
+}
+
+.eclipseBlue1 {
+    position: absolute;
+    width: 112vh;
+    height: 831px;
+    left: -162px;
+    top: -371px;
+    z-index: -1;
+    background: radial-gradient(41.7% 41.71% at 49.95% 54.05%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
+
+}
+
+.destaque {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    background: linear-gradient(180deg, #D352FA 54.43%, #AF19DD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.introducion {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+    color: #7A9FBC;
+    text-align: justify;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+  
+}
+
+.landing-especialidads {
+    background-color: white;
+    gap: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.especialidades {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 26px;
+    background: linear-gradient(180deg, #D352FA 54.43%, #AF19DD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 33px 33px 0;
+}
+
+.linhaEspec {
+    background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
+    width: 70px;
+    height: 3px;
+    position: relative;
+    left: 118px;
+
+}
+
+.card-global {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardEspec {
+    display: flex;
+    width: 182px;
+    height: 241px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 29px;
+    z-index: 1;
+}
+
+.linhaCardEspec {
+    width: 182px;
+    height: 10px;
+    background: linear-gradient(89.85deg, #9EC7F8 13.96%, #D295EF 73.31%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.h1cardEspec {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #5B89AD;
+    border: 1px solid #FFFFFF;
+    text-shadow: 0px 2px 4px #FFFFFF;
+}
+
+.pCardEspec {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #5B89AD;
+    border: 1px solid #FFFFFF;
+    text-shadow: 0px 2px 4px #FFFFFF;
+}
+
+.landing-doctors-global {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    background: white;
+}
+
+.h1-doctors {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 26px;
+    background: linear-gradient(180deg, #D352FA 54.43%, #AF19DD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 33px 33px 0;
+}
+
+.linhaDoctors {
+    background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
+    width: 70px;
+    height: 3px;
+    position: relative;
+    left: 118px;
+}
+
+.carousel-doctors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.eclipsePink-doctors {
+    position: absolute;
+    width: 1121.27px;
+    height: 680.12px;
+    left: -3.07px;
+    top: 1154.75px;
+    background: radial-gradient(45.76% 45.76% at 50% 50%, rgba(175, 25, 221, 0.495) 0%, rgba(194, 167, 221, 0.015) 100%);
+    transform: rotate(0.5deg);
+}
+
+.eclipseBlue-doctors {
+    position: absolute;
+    width: 718.61px;
+    height: 945.21px;
+    left: -398px;
+    top: 964.91px;
+    background: radial-gradient(37.45% 37.25% at 38.13% 56.49%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
+    transform: rotate(-55.04deg);
+}
+
+.landing-health-global {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    background-color: white;
+}
+
+.healths {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 26px;
+    background: linear-gradient(180deg, #D352FA 54.43%, #AF19DD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 33px 33px 0;
+}
+
+.linhaHealth {
+    background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
+    width: 70px;
+    height: 3px;
+    position: relative;
+    left: 138px;
+}
+
+.carousel-health {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.landing-footer {
+    height: 45px;
+    background: #D5A4F1;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 45px;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-health-global{
+    display: flex;
+    justify-content: center;
+}
+
+.button-health {
+    width: 91px;
+    height: 31px;
+    background: linear-gradient(178.8deg, #FFFFFF 1.02%, #FCF4FE 62.97%, #EEBEFC 90.23%, #D667F7 119.96%, #CE49F6 119.97%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #AF19DD;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+
+}

@@ -1,0 +1,46 @@
+.health-global {
+    width: 266px;
+    height: 168px;
+    background: #FFFFFF;
+    border: 0.2px solid #769DBB;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.informations-health{
+    padding: 7px 0px 0px 7px;
+}
+
+.name-health {
+    font-weight: 800;
+    font-size: 15px;
+    color: #5B89AD;
+}
+
+
+.health-informations {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #96C9F5;
+    margin: 0 112px 0 0;
+}
+
+.health-price {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #96C9F5;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 34px;
+    color: #5B89AD;
+
+}

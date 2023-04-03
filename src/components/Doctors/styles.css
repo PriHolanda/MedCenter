@@ -1,0 +1,67 @@
+.doctors-global {
+    display: flex;
+    flex-direction: column;
+}
+
+.doctors-container {
+    width: 123.56px;
+    height: 216px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.card-linha {
+    height: 1.5px;
+    width: 100%;
+    background: linear-gradient(90deg, #97CEF9 7.64%, #D296EF 76.19%, #D194EF 88.03%);
+    border-image-source: linear-gradient(90deg, #97CEF9 7.64%, #D296EF 76.19%, #D194EF 88.03%);
+}
+
+.name-doctors-card {
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 18px;
+    color: #5B89AD;
+    border: 1px solid #FFFFFF;
+    text-shadow: 0px 2px 4px #FFFFFF;
+}
+
+.profission-doctors-card {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #5B89AD;
+    border: 1px solid #FFFFFF;
+    text-shadow: 0px 2px 4px #FFFFFF;
+    margin: 0 0 15px;
+}
+
+.register-doctors-card {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #96C9F5;
+
+}
+
+.informations-doctors-card {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #5B89AD;
+    border: 1px solid #FFFFFF;
+    text-shadow: 0px 2px 4px #FFFFFF;
+}
+
+.informations-global{
+    padding: 5px;
+}
+
+.inf-adicionais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
