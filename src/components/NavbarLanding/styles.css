@@ -1,0 +1,62 @@
+.navbar-global {
+    background: transparent;
+    position: relative;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.linha {
+    background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
+    width: 70px;
+    height: 3px;
+}
+
+.navbar-item {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    gap: 15px
+}
+
+.item {
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 34px;
+    color: #5B89AD;
+    text-shadow: 0px 2px 4px #FFFFFF;
+}
+
+.menu-nav-login{
+    font-size: 15px;
+}
+
+@media(min-width: 1024px) {
+    .navbar-item{
+        gap: 35px;
+    }
+    .menu-nav-login{
+        font-size: 20px;
+    }
+    .img-logo {
+        width: 180px;
+    }
+
+    .item {
+        font-size: 17px;
+    }
+
+}
+
+@media(min-width: 1336px) {
+    .navbar-item{
+        gap: 50px;
+    }
+  
+
+    
+}

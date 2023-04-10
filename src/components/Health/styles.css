@@ -1,4 +1,15 @@
 .health-global {
+    display: flex;
+    gap: 55px;
+}
+
+.card-newborn {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newborn-plan {
     width: 266px;
     height: 168px;
     background: #FFFFFF;
@@ -11,18 +22,18 @@
     align-items: flex-start;
 }
 
-.informations-health{
+.informations-newborn {
     padding: 7px 0px 0px 7px;
 }
 
-.name-health {
+.name-newborn {
     font-weight: 800;
     font-size: 15px;
     color: #5B89AD;
 }
 
 
-.health-informations {
+.health-informations-newborn {
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
@@ -30,17 +41,342 @@
     margin: 0 112px 0 0;
 }
 
-.health-price {
+.health-price-newborn {
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
     color: #96C9F5;
 }
 
-.price {
+.price-newborn {
     font-weight: 800;
     font-size: 15px;
     line-height: 34px;
     color: #5B89AD;
+}
+
+.details-blue1 {
+    position: relative;
+    left: 175px;
+    bottom: 125px;
+  
+}
+
+.details-blue2 {
+    position: relative;
+    left: 9px;
+    top: -24px;
+   
+}
+
+.baby {
+    position: relative;
+    bottom: 179px;
+    left: 108px;
+    border-radius: 0 0 15px 0;
+}
+
+.button-health-global {
+    display: flex;
+    justify-content: center;
+}
+
+.button-health {
+    width: 91px;
+    height: 31px;
+    background: linear-gradient(178.8deg, #FFFFFF 1.02%, #FCF4FE 62.97%, #EEBEFC 90.23%, #D667F7 119.96%, #CE49F6 119.97%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #AF19DD;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.card-coverage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coverage-plan {
+    width: 266px;
+    height: 168px;
+    background: #FFFFFF;
+    border: 1px solid #96C9F5;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.informations-coverage {
+    padding: 7px 0px 0px 7px;
+}
+
+.name-coverage {
+    font-weight: 800;
+    font-size: 15px;
+    color: #AF19DD;
+}
+
+.health-informations-coverage {
+    color: #D352FA;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 126px 0 0;
+
+}
+
+.health-price-coverage {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D352FA;
+}
+
+.price-coverage {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 34px;
+    color: #AF19DD;
+
+}
+
+.details-pink1 {
+    position: relative;
+    left: 175px;
+    bottom: 125px;
+}
+
+.details-pink2 {
+    position: relative;
+    left: 9px;
+    top: -24px;
+}
+
+
+.kids-img {
+    position: relative;
+    top: -181px;
+    right: -101px;
+    border-radius: 0px 0px 15px 0px;
+}
+
+@media(min-width: 1024px) {
+    .informations-newborn {
+        padding: 17px 0px 0px 7px;
+    }
+
+    .newborn-plan {
+        width: 340px;
+        height: 196px;
+    }
+
+    .name-newborn {
+        font-size: 18px;
+    }
+
+    .health-informations-newborn {
+        font-size: 15px;
+    }
+
+    .health-price-newborn {
+        font-size: 15px
+    }
+
+    .price-newborn {
+        font-size: 18px;
+    }
+
+    .button-health {
+        width: 147px;
+        height: 39px;
+        line-height: 19px;
+
+    }
+
+    .details-blue1 {
+        position: relative;
+        left: 226px;
+        bottom: 119px;
+        width: 23px;
+    }
+
+    .details-blue2 {
+        position: relative;
+        left: 11px;
+        top: -10px;
+        width: 35px;
+    }
+
+    .baby {
+        position: relative;
+        bottom: 192px;
+        left: 154px;
+        width: 185px;
+    }
+
+    .coverage-plan {
+        width: 340px;
+        height: 196px;
+    }
+
+    .informations-coverage {
+        padding: 17px 0px 0px 7px;
+    }
+
+    .name-coverage {
+        font-size: 18px;
+    }
+
+    .health-informations-coverage {
+        font-size: 15px;
+        margin: 0 145px 0 0;
+
+    }
+
+    .health-price-coverage {
+        font-size: 15px;
+    }
+
+    .price-coverage {
+        font-size: 18px;
+
+    }
+
+    .details-pink1 {
+        position: relative;
+        left: 226px;
+        bottom: 119px;
+        width: 23px;
+    }
+
+    .details-pink2 {
+        position: relative;
+        left: 11px;
+        top: -10px;
+        width: 35px;
+    }
+
+
+    .kids-img {
+        position: relative;
+        top: -189px;
+        right: -148px;
+        width: 190px;
+    }
+
+}
+@media(min-width: 1336px) {
+    .informations-newborn {
+        padding: 25px 0px 0px 7px;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newborn-plan {
+        width: 402px;
+        height: 220px;
+    }
+
+    .name-newborn {
+        font-size: 24px;
+    }
+
+    .health-informations-newborn {
+        font-size: 18px;
+        margin: 0 132px 0 0;
+    }
+
+    .health-price-newborn {
+        font-size: 18px
+    }
+
+    .price-newborn {
+        font-size: 24px;
+    }
+
+    .button-health {
+        width: 155px;
+        height: 42px;
+        font-size: 17px;
+    }
+
+    .details-blue1 {
+        position: relative;
+        left: 278px;
+        bottom: 136px;
+        width: 27px;
+    }
+
+    .details-blue2 {
+        position: relative;
+        top: -21px;
+        width: 42px;
+    }
+
+    .baby {
+        position: relative;
+        bottom: 219px;
+        left: 203px;
+        width: 198px;
+    }
+
+    .coverage-plan {
+        width: 402px;
+        height: 220px;
+    }
+
+    .informations-coverage {
+        padding: 25px 0px 0px 7px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
+
+    .name-coverage {
+        font-size: 24px;
+    }
+
+    .health-informations-coverage {
+        font-size: 18px;
+        margin: 0 145px 0 0;
+
+    }
+
+    .health-price-coverage {
+        font-size: 18px;
+    }
+
+    .price-coverage {
+        font-size: 24px;
+
+    }
+
+    .details-pink1 {
+        position: relative;
+        left: 288px;
+        bottom: 132px;
+        width: 28px;
+    }
+
+    .details-pink2 {
+        position: relative;
+        top: -13px;
+        width: 42px;
+    }
+
+    .kids-img {
+        position: relative;
+        top: -210px;
+        right: -198px;
+        width: 203px;
+    }
 
 }

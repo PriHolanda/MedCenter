@@ -1,36 +1,41 @@
-import Navbar from "../../components/Navbar/Navbar";
+import NavbarLanding from "../../components/NavbarLanding/NavbarLanding";
 import Girl from "../../assets/images/girl-landingPage.png";
 import Airplane from "../../assets/images/airplane.png";
 import EclipsePink1 from "../../assets/images/eclipsePink1.png"
 import BgEspec from "../../assets/images/bg-especialidades.png"
+import BgEspecDesk from "../../assets/images/bg-especialidades-desk.png"
 import IconEsq from "../../assets/images/icon-arrowDown.png"
 import IconDir from "../../assets/images/icon-arrowDown2.png"
-import { Button, Image } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
+import { useMediaQuery } from "@chakra-ui/react";
 import "./styles.css"
 import Doctors from "../../components/Doctors/Doctors";
 import Health from "../../components/Health/Health";
 
 function Landing() {
+    const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
+
     return (
         <div className="landing-global">
-            <Navbar />
+            <div className="introducion-navbar">
+                <NavbarLanding />
 
-            {/* INTRODUÇÃO */}
+                {/* INTRODUÇÃO */}
 
-            <div className="landing-information">
-                <div className="information-container">
+                <div className="landing-information">
+                    <div className="information-container">
+                        <Image class="girl-img" src={Girl} alt="Menina na landing-page" w={"90%"} />
+                        <p className="introducion">A <span class="destaque">MedCenter</span> é uma clínica especializada no cuidado materno-infantil com especialistas focados em cuidar da saúde das crianças em todos os seus aspectos: alimentação, comportamento, doenças e, sobretudo, prevenção.</p>
+                    </div>
+
+                    <Image class="airplane-img" src={Airplane} />
                     <div className="eclipseBlue1" />
-                    <Image src={Girl} alt="Menina na landing-page" w={"90%"} />
-                    <p className="introducion">A <span class="destaque">MedCenter</span> é uma clínica especializada no cuidado materno-infantil com especialistas focados em cuidar da saúde das crianças em todos os seus aspectos: alimentação, comportamento, doenças e, sobretudo, prevenção.</p>
+                    <Image class="eclipsePink1" src={EclipsePink1}
+                        pos={"absolute"}
+                        left={"93px"}
+                        top={"396px"}
+                        overflow={"hidden"} />
                 </div>
-
-                <Image src={Airplane} pos={"relative"} top={"17px"} right={"80px"} />
-                <Image src={EclipsePink1}
-                    pos={"absolute"}
-                    left={"93px"}
-                    top={"396px"}
-                    zIndex={"-1"}
-                    overflow={"hidden"} />
             </div>
 
             {/* ESPECIALIDADES */}
@@ -42,72 +47,156 @@ function Landing() {
                     <div className="linhaEspec"></div>
                 </div>
 
-                <div className="card-global">
-                    <Image src={BgEspec} pos={"absolute"} />
 
-                    <Image src={IconEsq} />
-                    <div className="cardEspec">
-                        <div className="linhaCardEspec"></div>
-                        <h1 className="h1cardEspec">Psicologia Infantil</h1>
-                        <p className="pCardEspec">Ramo da ciência que trata das questões psíquicas de crianças. Assim, essa especialidade investiga e analisa o comportamento dessa faixa etária. O estudo inclui questões de cognição, de perceção, de aflições emocionais, das condições sociais e até mesmo físicas.</p>
+                {isSmallerThanMd ? (
+                    <div className="card-global">
+                        <Image src={BgEspec} className="bgEspec" w={"100%"} pos={"absolute"} zIndex={"-3"}/>
+                        <Image src={IconEsq} /><div className="cardEspec">
+                            <div className="linhaCardEspec"></div>
+                            <h1 className="h1cardEspec">Psicologia Infantil</h1>
+                            <p className="pCardEspec">Ramo da ciência que trata das questões psíquicas de crianças. Assim, essa especialidade investiga e analisa o comportamento dessa faixa etária. O estudo inclui questões de cognição, de perceção, de aflições emocionais, das condições sociais e até mesmo físicas.</p>
+                        </div><Image src={IconDir} />
                     </div>
-                    <Image src={IconDir} />
-                </div>
-            </div>
+
+                ) : (
+
+                    <div className="card-global">
+                        <Image w={"100%"} src={BgEspecDesk} pos={"absolute"} />
+                        <Image src={IconEsq} className="icon" />
+                        <div className="cardEspec">
+                            <div className="linhaCardEspec"></div>
+                            <h1 className="h1cardEspec">Psicologia Infantil</h1>
+                            <p className="pCardEspec">Ramo da ciência que trata das questões psíquicas de crianças. Assim, essa especialidade investiga e analisa o comportamento dessa faixa etária. O estudo inclui questões de cognição, de perceção, de aflições emocionais, das condições sociais e até mesmo físicas.</p>
+                        </div>
+
+                        <div className="cardEspec">
+                            <div className="linhaCardEspec"></div>
+                            <h1 className="h1cardEspec">Alergia/ Imunologia</h1>
+                            <p className="pCardEspec">Investiga e trata doenças relacionadas ao sistema imunológico, incluindo tanto as alergias quanto as imunodeficiências primárias, que estão associadas a defeitos hereditários ou genéticos do sistema imunológico.</p>
+                        </div>
+
+                        <div className="cardEspec">
+                            <div className="linhaCardEspec"></div>
+                            <h1 className="h1cardEspec">Neonatologia</h1>
+                            <p className="pCardEspec">É uma das especialidades mais delicadas de toda a Medicina. A especialidade é a responsável por realizar o acompanhamento médico de fetos e de crianças recém-nascidas até o 28° dia de vida fora da barriga da mãe.</p>
+                        </div>
+                        <Image src={IconDir} className="icon" />
+                    </div>
+                )}
+
+            </div >
 
             {/* NOSSOS MÉDICOS */}
 
-            <div className="landing-doctors-global">
-                <div className="heading-health">
+            < div className="landing-doctors-global" >
+                <div className="heading-doctors">
                     <h1 className="h1-doctors">Nossos Médicos</h1>
                     <div className="linhaDoctors"></div>
                 </div>
 
-                <div className="carousel-doctors-global">
-                    <div className="eclipsePink-doctors" />
-                    <div className="eclipseBlue-doctors" />
-                    <div className="carousel-doctors">
-                        <Image src={IconEsq} />
-                        <Doctors />
-                        <Doctors />
-                        <Image src={IconDir} />
-                    </div>
+                {isSmallerThanMd ? (
 
                     <div className="carousel-doctors-global">
+                        <div className="eclipsePink-doctors" />
+                        <div className="eclipseBlue-doctors" />
                         <div className="carousel-doctors">
                             <Image src={IconEsq} />
                             <Doctors />
                             <Doctors />
                             <Image src={IconDir} />
                         </div>
+
+                        <div className="carousel-doctors-global">
+                            <div className="carousel-doctors">
+                                <Image src={IconEsq} />
+                                <Doctors />
+                                <Doctors />
+                                <Image src={IconDir} />
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+
+                ) : (
+
+                    <div className="carousel-doctors-global">
+                        <div className="eclipsePink-doctors" />
+                        <div className="eclipseBlue-doctors" />
+                        <div className="carousel-doctors">
+                            <Image src={IconEsq} className="icon" />
+                            <Doctors />
+                            <Doctors />
+                            <Doctors />
+                            <Doctors />
+                            <Image src={IconDir} className="icon" />
+                        </div>
+
+
+                        <div className="carousel-doctors">
+                            <Image src={IconEsq} className="icon" />
+                            <Doctors />
+                            <Doctors />
+                            <Doctors />
+                            <Doctors />
+                            <Image src={IconDir} className="icon" />
+                        </div>
+
+                    </div>
+                )}
+
+            </div >
 
             {/* PLANOS DE SAÚDE */}
-            <div className="landing-health-global">
-                <div className="heading-health">
-                    <h2 className="healths">Planos de Saúde</h2>
-                    <div className="linhaHealth"></div>
-                </div>
+            {isSmallerThanMd ? (
 
-                <div className="carousel-health-global">
-                    <div className="carousel-health">
-                        <Image src={IconEsq} />
-                        <Health />
-                        <Image src={IconDir} />
+                <div className="landing-health-global" >
+                    <div className="heading-health">
+                        <h2 className="healths">Planos de Saúde</h2>
+                        <div className="linhaHealth"></div>
                     </div>
-                </div>
 
-                <div className="button-health-global">
-                    <button className="button-health">Contratar</button>
-                </div>
-            </div>
+                    <div className="carousel-health-global">
+                        <div className="eclipsePink-health" />
+                        <div className="eclipseBlue-health" />
+                        <div className="carousel-health">
+                            <Image src={IconEsq} />
+                            <Health />
+                            <Image src={IconDir} />
+                        </div>
+                    </div>
+                </div >
+
+            ) : (
+
+                <div className="landing-health-global" >
+                    <div className="heading-health">
+                        <h2 className="healths">Planos de Saúde</h2>
+                        <div className="linhaHealth"></div>
+                    </div>
+
+                    <div className="carousel-health-global">
+                        <div className="eclipsePink-health" />
+                        <div className="eclipseBlue-health" />
+                        <div className="carousel-health">
+                            <Image src={IconEsq} className="icon" />
+                            <Health />
+                            <Image src={IconDir} className="icon" />
+                        </div>
+                    </div>
+
+                    <div className="carousel-health-global">
+                        <div className="carousel-health">
+                            <Image src={IconEsq} className="icon" />
+                            <Health />
+                            <Image src={IconDir} className="icon" />
+                        </div>
+                    </div>
+                </div >
+            )}
 
             <footer className="landing-footer">
                 <p>@ 2023 MedCenter. Todos os Direitos Reservados</p>
             </footer>
-        </div>
+        </div >
 
     )
 }

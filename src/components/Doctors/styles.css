@@ -6,9 +6,14 @@
 .doctors-container {
     width: 123.56px;
     height: 216px;
-    background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
+}
+
+.img-doctors {
+    display: flex;
+    justify-content: center;
+    background: transparent;
 }
 
 .card-linha {
@@ -55,13 +60,105 @@
     text-shadow: 0px 2px 4px #FFFFFF;
 }
 
-.informations-global{
+.informations-global {
     padding: 5px;
+    background-color: white;
 }
 
-.inf-adicionais{
+.inf-adicionais {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px;
+    padding: 7px;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+}
+
+@media(min-width: 768px) {
+    .doctors-container {
+        width: 133.56px;
+        height: 226px;
+    }
+
+    .inf-adicionais {
+        padding: 12px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .doctors-container {
+        width: 178.56px;
+        height: 288px;
+    }
+
+    .doctors-img{
+        width: 114px;
+    }
+    
+    .name-doctors-card {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+    .profission-doctors-card {
+        font-size: 15px;
+    }
+    
+    .register-doctors-card {
+        font-size: 12px;
+    
+    }
+    
+    .informations-doctors-card {
+        font-size: 15px;
+    }
+    
+    .informations-global {
+        padding: 5px;
+        background-color: white;
+    }
+
+
+    .inf-adicionais {
+        padding: 17px;
+    }
+}
+
+@media(min-width: 1336px) {
+    .doctors-container {
+        width: 206px;
+        height: 364px;
+    }
+
+    .doctors-img{
+        width: 140px;
+    }
+    
+    .name-doctors-card {
+        font-size: 22px;
+        line-height: 18px;
+    }
+    
+    .profission-doctors-card {
+        font-size: 17px;
+    }
+    
+    .register-doctors-card {
+        font-size: 14px;
+    
+    }
+    
+    .informations-doctors-card {
+        font-size: 18px;
+    }
+    
+    .informations-global {
+        padding: 13px 5px;
+        background-color: white;
+    }
+
+
+    .inf-adicionais {
+        padding: 28px;
+    }
 }
