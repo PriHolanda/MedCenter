@@ -1,10 +1,9 @@
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Landing from './pages/landingPage/Landing'
 function App() {
 
   return (
-    <div className="App">
-    <p>oi dani</p>
-    </div>
+    <p>oie</p>
   )
 }
 

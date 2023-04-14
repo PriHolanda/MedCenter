@@ -73,7 +73,7 @@
 
 /* ESPECIALIDADES */
 
-.landing-especialidads {
+#landing-especialidads {
     background-color: white;
     gap: 29px;
     display: flex;
@@ -103,7 +103,7 @@
 
 }
 
-.card-global {
+#card-global {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,7 +155,7 @@
 
 /* MEDICOS */
 
-.landing-doctors-global {
+#landing-doctors-global {
     display: flex;
     flex-direction: column;
     gap: 34px;
@@ -215,7 +215,7 @@
 
 /* PLANOS DE SAUDE */
 
-.landing-health-global {
+#landing-health-global {
     display: flex;
     flex-direction: column;
     gap: 34px;
@@ -327,7 +327,7 @@
     }
 
 
-    .card-global {
+    #card-global {
         gap: 30px;
     }
 
@@ -449,7 +449,7 @@
         line-height: 22px;
     }
 
-    .card-global {
+    #card-global {
         gap: 30px;
     }
 
@@ -595,18 +595,18 @@
 
     .eclipseBlue-doctors {
         position: absolute;
-    top: 1050px;
-    width: 1612px;
-    height: 1555px;
-    right: 193px;
+        top: 1050px;
+        width: 1612px;
+        height: 1555px;
+        right: 193px;
     }
 
     .eclipsePink-doctors {
         position: absolute;
-    left: 371.93px;
-    top: 1436px;
-    width: 1348px;
-    height: 1000px;
+        left: 371.93px;
+        top: 1436px;
+        width: 1348px;
+        height: 1000px;
     }
 
     .h1-doctors {

@@ -12,7 +12,7 @@ import "./styles/global.css"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>
-      <Landing/>
+      <Landing />
     </ChakraProvider>
   </React.StrictMode>,
 )

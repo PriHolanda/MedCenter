@@ -5,7 +5,6 @@ import Logo from "../../assets/images/logo.png"
 import IconMenu from "../../assets/images/icon-menu.png"
 import IconLogin from "../../assets/images/icon-login.png"
 import "./styles.css"
-
 function NavbarLanding() {
     const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
 
@@ -39,19 +38,19 @@ function NavbarLanding() {
                                 justifyContent="center"
                                 bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"}
                                 as='a'
-                                href='#'>Especialidades</MenuItem>
+                                href='#card-global'>Especialidades</MenuItem>
 
                             <MenuItem
                                 justifyContent="center"
                                 bg={"transparent"}
                                 as='a'
-                                href='#'>Nossos Médicos</MenuItem>
+                                href='#landing-doctors-global'>Nossos Médicos</MenuItem>
 
                             <MenuItem
                                 justifyContent="center"
                                 bg={"transparent"}
                                 as='a'
-                                href='#'>Planos de Saúde</MenuItem>
+                                href="#landing-health-global">Planos de Saúde</MenuItem>
 
                         </MenuList>
                     </Menu>
@@ -60,17 +59,17 @@ function NavbarLanding() {
 
                     <div className="navbar-list">
                         <ul className="navbar-item">
-                            <li className="item">Home
-                                <a href=""></a>
+                            <li className="item">
+                                <a href="">Home</a>
                             </li>
-                            <li className="item">Especialidades
-                                <a href="especialidades"></a>
+                            <li className="item">
+                                <a href="#landing-especialidads">Especialidades</a>
                             </li>
-                            <li className="item">Nossos Médicos
-                                <a href=""></a>
+                            <li className="item">
+                                <a href="#landing-doctors-global">Nossos Médicos</a>
                             </li>
-                            <li className="item">Planos de Saúde
-                                <a href=""></a>
+                            <li className="item">
+                                <a href="#landing-health-global">Plano de Saúde</a>
                             </li>
                         </ul>
                     </div>

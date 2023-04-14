@@ -41,7 +41,7 @@ function Landing() {
             {/* ESPECIALIDADES */}
 
 
-            <div className="landing-especialidads">
+            <section id="landing-especialidads">
                 <div className="heading-espec">
                     <h2 className="especialidades">Especialidades</h2>
                     <div className="linhaEspec"></div>
@@ -49,18 +49,18 @@ function Landing() {
 
 
                 {isSmallerThanMd ? (
-                    <div className="card-global">
+                    <section id="card-global">
                         <Image src={BgEspec} className="bgEspec" w={"100%"} pos={"absolute"} zIndex={"-3"}/>
                         <Image src={IconEsq} /><div className="cardEspec">
                             <div className="linhaCardEspec"></div>
                             <h1 className="h1cardEspec">Psicologia Infantil</h1>
                             <p className="pCardEspec">Ramo da ciência que trata das questões psíquicas de crianças. Assim, essa especialidade investiga e analisa o comportamento dessa faixa etária. O estudo inclui questões de cognição, de perceção, de aflições emocionais, das condições sociais e até mesmo físicas.</p>
                         </div><Image src={IconDir} />
-                    </div>
+                    </section>
 
                 ) : (
 
-                    <div className="card-global">
+                    <section id="card-global">
                         <Image w={"100%"} src={BgEspecDesk} pos={"absolute"} />
                         <Image src={IconEsq} className="icon" />
                         <div className="cardEspec">
@@ -81,14 +81,14 @@ function Landing() {
                             <p className="pCardEspec">É uma das especialidades mais delicadas de toda a Medicina. A especialidade é a responsável por realizar o acompanhamento médico de fetos e de crianças recém-nascidas até o 28° dia de vida fora da barriga da mãe.</p>
                         </div>
                         <Image src={IconDir} className="icon" />
-                    </div>
+                    </section>
                 )}
 
-            </div >
+            </section >
 
             {/* NOSSOS MÉDICOS */}
 
-            < div className="landing-doctors-global" >
+            <section id="landing-doctors-global" >
                 <div className="heading-doctors">
                     <h1 className="h1-doctors">Nossos Médicos</h1>
                     <div className="linhaDoctors"></div>
@@ -143,9 +143,10 @@ function Landing() {
                     </div>
                 )}
 
-            </div >
+            </section>
 
             {/* PLANOS DE SAÚDE */}
+            
             {isSmallerThanMd ? (
 
                 <div className="landing-health-global" >
@@ -167,7 +168,7 @@ function Landing() {
 
             ) : (
 
-                <div className="landing-health-global" >
+                <section id="landing-health-global" >
                     <div className="heading-health">
                         <h2 className="healths">Planos de Saúde</h2>
                         <div className="linhaHealth"></div>
@@ -190,7 +191,7 @@ function Landing() {
                             <Image src={IconDir} className="icon" />
                         </div>
                     </div>
-                </div >
+                </section >
             )}
 
             <footer className="landing-footer">
