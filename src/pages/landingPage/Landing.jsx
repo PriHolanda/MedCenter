@@ -1,11 +1,11 @@
 import NavbarLanding from "../../components/NavbarLanding/NavbarLanding";
-import Girl from "../../assets/images/girl-landingPage.png";
-import Airplane from "../../assets/images/airplane.png";
-import EclipsePink1 from "../../assets/images/eclipsePink1.png"
-import BgEspec from "../../assets/images/bg-especialidades.png"
+import Girl from "../../assets/images/girl-landingPage.svg";
+import Airplane from "../../assets/images/airplane.svg";
+import EclipsePink1 from "../../assets/images/eclipsePink1.svg"
+import BgEspec from "../../assets/images/bg-especialidades.svg"
 import BgEspecDesk from "../../assets/images/bg-especialidades-desk.png"
-import IconEsq from "../../assets/images/icon-arrowDown.png"
-import IconDir from "../../assets/images/icon-arrowDown2.png"
+import IconEsq from "../../assets/images/icon-arrowDown.svg"
+import IconDir from "../../assets/images/icon-arrowDown2.svg"
 import { Image } from "@chakra-ui/react";
 import { useMediaQuery } from "@chakra-ui/react";
 import "./styles.css"
@@ -14,6 +14,7 @@ import Health from "../../components/Health/Health";
 
 function Landing() {
     const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
+
 
     return (
         <div className="landing-global">

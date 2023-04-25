@@ -69,7 +69,7 @@
    
 }
 
-.baby {
+.baby-health {
     position: relative;
     bottom: 179px;
     left: 108px;
@@ -214,7 +214,7 @@
         width: 35px;
     }
 
-    .baby {
+    .baby-health {
         position: relative;
         bottom: 192px;
         left: 154px;
@@ -321,7 +321,7 @@
         width: 42px;
     }
 
-    .baby {
+    .baby-health {
         position: relative;
         bottom: 219px;
         left: 203px;

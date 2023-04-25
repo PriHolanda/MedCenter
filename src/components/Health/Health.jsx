@@ -54,7 +54,7 @@ function Health() {
                         </div>
                         <Image src={DetailsBlue1} className="details-blue1" />
                         <Image src={DetailsBlue2} className="details-blue2" />
-                        <Image src={Baby} className="baby" />
+                        <Image src={Baby} className="baby-health" />
                     </div>
                     <div className="button-health-global">
                         <button className="button-health">Contratar</button>

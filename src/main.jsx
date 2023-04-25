@@ -8,11 +8,13 @@ import Landing from './pages/landingPage/Landing'
 import Health from './components/Health/Health'
 
 import "./styles/global.css"
+import LoginMed from './pages/LoginMed/LoginMed'
+import LoginPatient from './pages/LoginPatient/LoginPatient'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>
-      <Landing />
+      <App/>
     </ChakraProvider>
   </React.StrictMode>,
 )

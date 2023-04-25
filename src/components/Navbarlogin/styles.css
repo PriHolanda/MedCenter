@@ -1,0 +1,37 @@
+.navbar-global-login {
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.linha {
+    background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
+    width: 70px;
+    height: 3px;
+}
+
+.oie {
+    font-size: 15px;
+}
+
+.MenuButton {
+
+    justify-content: first baseline;
+}
+
+@media(min-width: 1336px) {
+    .oie {
+        font-size: 20px;
+    }
+
+
+    .img-logo {
+        width: 200px;
+    }
+}

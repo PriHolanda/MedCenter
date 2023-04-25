@@ -1,12 +1,15 @@
 import { Flex, Image } from "@chakra-ui/react";
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { useMediaQuery } from "@chakra-ui/react";
-import Logo from "../../assets/images/logo.png"
-import IconMenu from "../../assets/images/icon-menu.png"
-import IconLogin from "../../assets/images/icon-login.png"
+import Logo from "../../assets/images/logo.svg"
+import IconMenu from "../../assets/images/icon-menu.svg"
+import IconLogin from "../../assets/images/icon-login.svg"
 import "./styles.css"
+import { useNavigate } from "react-router-dom";
+
 function NavbarLanding() {
     const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
+    const navigate = useNavigate();
 
     return (
         <div className="navbar-global">
@@ -94,18 +97,23 @@ function NavbarLanding() {
                             justifyContent="center"
                             bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"}
                             as='a'
-                            href='#'>Acess/Paciente</MenuItem>
+                            href='#'
+                            onClick={() => navigate('/login-pacient')}
+                            >Acess/Paciente</MenuItem>
 
                         <MenuItem
                             justifyContent="center"
                             bg={"transparent"}
-                            as='a' href='#'>Acess/Médico</MenuItem>
+                            as='a' href='#'
+                            onClick={() => navigate('/login-medico')}>Acess/Médico</MenuItem>
 
                         <MenuItem
                             justifyContent="center"
                             bg={"transparent"}
                             as='a'
-                            href='#'>Acess/Adm</MenuItem>
+                            href='#'
+                            onClick={() => navigate('/login-medico')}
+                            >Acess/Adm</MenuItem>
 
                     </MenuList>
                 </Menu>

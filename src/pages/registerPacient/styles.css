@@ -1,0 +1,44 @@
+.register-pacient-global{
+    background: #FFFFFF;
+}
+
+/* .eclipseBlue-register{
+    position: absolute;
+    width: 125vh;
+    height: 831px;
+    left: -284px;
+    top: -439px;
+    z-index: -1;
+    background: radial-gradient(41.7% 41.71% at 49.95% 54.05%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
+} */
+
+.register-pacient-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+    
+}
+
+.card-bg-register{
+    position: relative;
+    z-index: 1;
+    width: 303px;
+    height: 478px;
+    left: -11px;
+    top: 109px;
+    background: linear-gradient(2.37deg, rgba(150, 203, 246, 0.5) -11.42%, rgba(196, 225, 249, 0.5) 64.47%);
+    backdrop-filter: blur(2px);
+    border-radius: 35px;
+}
+
+.card-main-register{
+    position: relative;
+    z-index: 2;
+    width: 309px;
+    height: 519px;
+    left: 8px;
+    bottom: 435px;
+    background: linear-gradient(2.37deg, #9BCCF5 -0.14%, #FFFFFF 73.54%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
