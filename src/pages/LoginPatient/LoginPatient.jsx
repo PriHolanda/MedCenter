@@ -1,6 +1,6 @@
 import { Flex, Image, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import { useMediaQuery } from "@chakra-ui/react";
-import NavbarLogin from "../../components/Navbarlogin/Navbarlogin";
+import NavbarLogin from "../../components/Navbarlogin/NavbarLogin";
 import IconPeople from "../../assets/images/icon-people.png";
 import IconLock from "../../assets/images/cadeado.png";
 import BgLogin from "../../assets/images/bg-login.svg";

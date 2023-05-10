@@ -3,7 +3,7 @@ import Girl from "../../assets/images/girl-landingPage.svg";
 import Airplane from "../../assets/images/airplane.svg";
 import EclipsePink1 from "../../assets/images/eclipsePink1.svg"
 import BgEspec from "../../assets/images/bg-especialidades.svg"
-import BgEspecDesk from "../../assets/images/bg-especialidades-desk.png"
+import BgEspecDesk from "../../assets/images/bg-especialidades.svg"
 import IconEsq from "../../assets/images/icon-arrowDown.svg"
 import IconDir from "../../assets/images/icon-arrowDown2.svg"
 import { Image } from "@chakra-ui/react";
@@ -14,7 +14,6 @@ import Health from "../../components/Health/Health";
 
 function Landing() {
     const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
-
 
     return (
         <div className="landing-global">
@@ -31,11 +30,7 @@ function Landing() {
 
                     <Image class="airplane-img" src={Airplane} />
                     <div className="eclipseBlue1" />
-                    <Image class="eclipsePink1" src={EclipsePink1}
-                        pos={"absolute"}
-                        left={"93px"}
-                        top={"396px"}
-                        overflow={"hidden"} />
+                    <div className="eclipsePink1"></div>
                 </div>
             </div>
 

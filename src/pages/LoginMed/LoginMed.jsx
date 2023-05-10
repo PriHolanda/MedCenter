@@ -1,15 +1,17 @@
 import { Flex, Image, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import { useMediaQuery } from "@chakra-ui/react";
-import NavbarLogin from "../../components/Navbarlogin/Navbarlogin";
+import NavbarLogin from "../../components/Navbarlogin/NavbarLogin";
 import IconPeople from "../../assets/images/icon-people.png";
 import IconLock from "../../assets/images/cadeado.png";
 import BgLogin from "../../assets/images/bg-login.svg";
 import BgLoginDesk from "../../assets/images/bg-login-desk.svg";
 import DoctorLogin from "../../assets/images/doctor-login.svg";
 import "./styles.css"
+import { useNavigate } from "react-router-dom";
 
 
 function LoginMed() {
+    const navigate = useNavigate();
     const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
 
     return (
@@ -109,7 +111,7 @@ function LoginMed() {
                     <a className="recover-password-doctor" href="">Forgot password?</a>
                     <p className="registration-doctor">Not have an account yet?
                         <a className="sing-up-doctor" 
-                        onClick={() => navigate('/register-pacient')}> Sing-up</a></p>
+                        onClick={() => navigate("/register-doctor")}> Sing-up</a></p>
                 </div>
             </div>
 

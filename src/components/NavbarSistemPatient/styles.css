@@ -1,22 +1,26 @@
-.navbar-global {
+.navbar-patient-global {
     background: transparent;
     position: relative;
 }
 
-.navbar-container {
+.navbar-patient-container {
     display: flex;
     justify-content: space-between;
     padding: 8px;
     align-items: center;
 }
 
-.linha-home {
+.img-logo{
+    width: 110px;
+}
+
+.linha-patient-home {
     background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
-    width: 70px;
+    width: 60px;
     height: 3px;
 }
 
-.navbar-item {
+.navbar-patient-item {
     display: flex;
     list-style: none;
     text-transform: uppercase;
@@ -31,28 +35,19 @@
     text-shadow: 0px 2px 4px #FFFFFF;
 }
 
-@media(min-width: 1024px) {
-    .navbar-item{
-        gap: 35px;
-    }
-    .menu-nav-login{
-        font-size: 20px;
-    }
-    .img-logo {
-        width: 180px;
-    }
-
-    .item {
-        font-size: 17px;
-    }
-
+.configurations{
+    display: flex;
+    align-items: center;
 }
 
-@media(min-width: 1336px) {
-    .navbar-item{
-        gap: 50px;
-    }
-  
-
-    
+.configurations-container{
+    display: flex;
+    align-items: center;
+    width: 76px;
+    height: 26.62px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    justify-content: space-between;
+    padding: 8px;
 }

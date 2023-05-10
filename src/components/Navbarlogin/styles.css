@@ -10,28 +10,50 @@
     padding: 10px;
 }
 
-.linha {
+.linha-out {
     background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
-    width: 70px;
+    width: 54px;
     height: 3px;
 }
 
-.oie {
+.button-out {
+    display: flex;
+    align-items: center;
+}
+
+.h1-button-out {
+    font-weight: 800;
     font-size: 15px;
+    line-height: 20px;
+    color: #5D8BAF;
+    text-shadow: 0px 2px 4px #FFFFFF;
 }
 
-.MenuButton {
 
-    justify-content: first baseline;
-}
-
-@media(min-width: 1336px) {
-    .oie {
-        font-size: 20px;
+@media(min-width: 1024px) {
+    .img-icon-login{
+        width: 20px;
+    }
+    .linha-out {
+        width: 80px;
+        height: 4px;
+        margin: 5px 0;
     }
 
+    .h1-button-out {
+        font-size: 20px;
+        text-shadow: 0px 2px 4px #FFFFFF;
+    }
 
     .img-logo {
         width: 200px;
     }
 }
+
+
+@media(min-width: 1336px) {
+    .img-icon-login{
+        width: 30px;
+    }
+}
+

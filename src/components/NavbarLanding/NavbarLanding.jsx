@@ -33,7 +33,7 @@ function NavbarLanding() {
                                 <Image src={IconMenu} alt='Icone de Menu' className="img-icon-menu" />
                             </Flex>
 
-                            <div className="linha"></div>
+                            <div className="linha-home"></div>
                         </Flex>
 
                         <MenuList minW={"153px"} bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"} border={"none"}>

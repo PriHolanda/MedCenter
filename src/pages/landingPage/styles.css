@@ -34,6 +34,16 @@
     background: radial-gradient(41.7% 41.71% at 49.95% 54.05%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
 }
 
+.eclipsePink1 {
+    position: fixed;
+    width: 701.91px;
+    height: 699.74px;
+    left: 42px;
+    top: 135px;
+    background: radial-gradient(45.74% 45.74% at 47.47% 50.03%, rgba(175, 25, 221, 0.495) 0%, rgba(194, 167, 221, 0.015) 100%);
+    z-index: -1;
+}
+
 .destaque {
     font-weight: 900;
     font-size: 20px;
@@ -524,6 +534,13 @@
         top: -363px;
     }
 
+    .eclipsePink1 {
+        position: fixed;
+        left: 800px;
+        top: 190px;
+        width: 728px;
+    }
+
     .girl-img {
         min-width: 500px;
     }
@@ -544,13 +561,6 @@
         width: 410px;
     }
 
-    .eclipsePink1 {
-        position: absolute;
-        left: 756px;
-        top: 230px;
-        width: 600px;
-        z-index: -1;
-    }
 
     .especialidades {
         font-size: 35px;

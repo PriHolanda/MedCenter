@@ -1,11 +1,11 @@
-.register-pacient-global {
+.register-doctor-global {
     position: relative;
     background: #F2FAFF;
     overflow-x: hidden;
     height: 100vh;
 }
 
-.eclipseBlue-register-patient {
+.eclipseBlue-register-doctor {
     position: absolute;
     width: 125vh;
     height: 831px;
@@ -14,30 +14,30 @@
     background: radial-gradient(41.7% 41.71% at 49.95% 54.05%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
 }
 
-.button-return {
+.button-return-doctor {
     margin: 21px 0px 0px 29px;
 }
 
-.register-pacient-cards {
+.register-doctor-cards {
     display: flex;
     justify-content: center;
     padding: 26px;
 }
 
-.card-bg-register-patient {
+.card-bg-register-doctor {
     position: absolute;
     top: 217px;
     left: 7px;
     width: 303px;
-    height: 480px;
+    height: 454px;
     background: linear-gradient(2.37deg, rgba(150, 203, 246, 0.5) -11.42%, rgba(196, 225, 249, 0.5) 64.47%);
     backdrop-filter: blur(2px);
     border-radius: 35px;
 }
 
-.card-main-register-patient-mobile {
+.card-main-register-doctor-mobile {
     width: 337px;
-    height: 526px;
+    height: 497px;
     background: linear-gradient(2.37deg, #9BCCF5 -0.14%, #FFFFFF 73.54%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
@@ -47,29 +47,17 @@
     gap: 4px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.card-main-register-patient-desk {
-    display: none;
-}
-
-.eclipsePink-register-patient {
-    position: fixed;
-    width: 701.91px;
-    height: 699.74px;
-    left: 42px;
-    top: 135px;
-    background: radial-gradient(45.74% 45.74% at 47.47% 50.03%, rgba(175, 25, 221, 0.495) 0%, rgba(194, 167, 221, 0.015) 100%);
-}
-
-.label-cadaster-patient {
+.label-cadaster-doctor {
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     color: #568BB8;
 }
 
-.input-cadaster-patient {
+.input-cadaster-doctor{
     width: 100%;
     height: 34px;
     border: 0.5px solid #578BB7;
@@ -81,34 +69,59 @@
     padding: 0 7px;
 }
 
-.input-cadaster-patient::placeholder {
+.input-cadaster-doctor::placeholder {
     color: rgba(92, 138, 174, 0.68);
 }
 
-.input-agrupament {
+.input-agrupament-doctor {
     display: flex;
     gap: 7px;
 }
 
+.card-main-register-doctor-desk {
+    display: none;
+}
 
-@media(min-width: 768px) {
-    .label-cadaster-patient {
-        font-size: 15px;
-    }
+.eclipsePink-register-doctor {
+    position: fixed;
+    width: 701.91px;
+    height: 699.74px;
+    left: 42px;
+    top: 135px;
+    background: radial-gradient(45.74% 45.74% at 47.47% 50.03%, rgba(175, 25, 221, 0.495) 0%, rgba(194, 167, 221, 0.015) 100%);
+}
 
-    .card-bg-register-patient {
+@media(min-width: 768px) {    
+    .card-bg-register-doctor {
         position: absolute;
         top: 196px;
         left: 70px;
         width: 557px;
         height: 392px;
     }
-
-    .card-main-register-patient-mobile {
-        display: none;
+    
+    .card-main-register-doctor-mobile {
+      display: none;
+    }
+    
+    .label-cadaster-doctor {
+        font-size: 15px;
+    }
+    
+    .input-cadaster-doctor{
+        height: 41px;
+        font-size: 16px;
+        color: #568BB8;
+        border-radius: 25px;
     }
 
-    .card-main-register-patient-desk {
+    .input-agrupament-doctor {
+        justify-content: space-between;
+        display: flex;
+        gap: 7px;
+    }
+    
+    .card-main-register-doctor-desk {
         background: linear-gradient(2.37deg, #9BCCF5 -0.14%, #FFFFFF 73.54%);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 35px;
@@ -118,98 +131,86 @@
         flex-direction: column;
         width: 580px;
         height: 412px;
-        padding: 40px;
-        gap: 8px;
+        padding: 34px;
+        justify-content: center;
     }
-
-    .eclipsePink-register-patient {
+    
+    .eclipsePink-register-doctor {
         position: fixed;
         left: 290px;
         top: 184px;
     }
-
-    .input-cadaster-patient {
-        height: 41px;
-        font-size: 16px;
-        color: #568BB8;
-        border-radius: 25px;
-    }
 }
 
-@media(min-width: 1024px) {
-    .button-return {
-        margin: 21px 0px 0px 45px;
+@media(min-width: 1024px) {   
+    .button-return-doctor {
+        margin: 21px 0px 0px 65px;
         width: 33px;
-    }
-
-    .label-cadaster-patient {
-        font-size: 17px;
-    }
-
-    .card-bg-register-patient {
+       
+    } 
+    .card-bg-register-doctor {
         position: absolute;
         top: 236px;
         left: 100px;
         width: 703px;
         height: 439px;
     }
-
-    .card-main-register-patient-desk {
+    
+    .label-cadaster-doctor {
+        font-size: 17px;
+    }
+    
+    .input-cadaster-doctor{
+        height: 47px;
+        font-size: 17px;
+    }
+    
+    .card-main-register-doctor-desk {
         width: 755px;
         height: 465px;
         padding: 40px;
-        gap: 8px;
     }
-
-    .eclipsePink-register-patient {
+    
+    .eclipsePink-register-doctor {
         position: fixed;
         left: 478px;
-    }
-
-    .input-cadaster-patient {
-        height: 47px;
-        font-size: 17px;
-        margin: 0px 0 6px;
+        top: 184px;
     }
 }
 
-@media(min-width: 1336px) {
-    .button-return {
-        margin: 21px 0px 0px 65px;
+@media(min-width: 1336px) {   
+    .button-return-doctor {
         width: 43px;
-    }
-
-    .label-cadaster-patient {
-        font-size: 26px;
-    }
-
-    .card-bg-register-patient {
+       
+    } 
+    .card-bg-register-doctor {
         position: absolute;
         top: 263px;
         left: 127px;
         width: 936px;
-        height: 581px;
+        height: 665px;
     }
-
-    .card-main-register-patient-desk {
+    
+    .label-cadaster-doctor {
+        font-size: 26px;
+    }
+    
+    .input-cadaster-doctor{
+        height: 64px;
+        font-size: 25px;
+        margin: 0px 0 18px;
+    }
+    
+    .card-main-register-doctor-desk {
         width: 1000px;
-        height: 595px;
-        padding: 40px;
-        gap: 8px;
+        height: 695px;
     }
-
-    .eclipsePink-register-patient {
+    
+    .eclipsePink-register-doctor {
         position: fixed;
         left: 670px;
         top: 155px;
         width: 898px;
         height: 864px;
     }
-
-    .input-cadaster-patient {
-        height: 64px;
-        font-size: 25px;
-        margin: 0px 0 18px;
-    }
-
 }

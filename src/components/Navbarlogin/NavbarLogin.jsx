@@ -1,29 +1,26 @@
-import { Flex, Image } from "@chakra-ui/react";
-import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
 import Logo from "../../assets/images/logo.svg"
-import IconMenu from "../../assets/images/icon-menu.svg"
 import IconLogin from "../../assets/images/icon-login.svg"
+import { useNavigate } from "react-router-dom";
 import "./styles.css"
 
 function NavbarLogin() {
+    const navigate = useNavigate();
+    
     return (
         <div className="navbar-global-login">
             <nav className="navbar-container">
                 <Image src={Logo} alt="Imagem da Logo" className="img-logo" />
-                
-                {/* MENU DE LOGIN */}
 
-                <Menu>
-                    <Flex alignItems="center" >
-                        <MenuButton 
-                        className="oie"
-                        color={'#5B89AD'}
-                        fontWeight={"800"}
-                        lineHeight={"20px"}
-                        textShadow={"0px 2px 4px #FFFFFF"}>Sair</MenuButton>
+                <div className="button-out-global">
+                    <div className="button-out" >
+                        <a className="h1-button-out" href=""
+                        onClick={() => navigate('/')} >Sair</a>
                         <Image src={IconLogin} alt='Icone de Login' className="img-icon-login" />
-                    </Flex>
-                </Menu>
+
+                    </div>
+                    <div className="linha-out"></div>
+                </div>
             </nav>
         </div>
     )
