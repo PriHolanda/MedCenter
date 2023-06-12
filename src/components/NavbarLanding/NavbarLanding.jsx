@@ -36,24 +36,39 @@ function NavbarLanding() {
                             <div className="linha-home"></div>
                         </Flex>
 
-                        <MenuList minW={"153px"} bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"} border={"none"}>
+                        <MenuList minW={"153px"}
+                            bg={" rgba(240, 246, 254, 0.5)"}
+                            backdropFilter={"blur(4px)"}
+                            border={"none"}
+                            boxShadow={"1px 2px 5px #004F94"}>
                             <MenuItem
+                                color={"#5B89AD"}
+                                fontWeight={800}
+                                textShadow={" 0px 2px 4px #FFFFFF"}
                                 justifyContent="center"
                                 bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"}
                                 as='a'
-                                href='#card-global'>Especialidades</MenuItem>
+                                href=''>Especialidades</MenuItem>
 
+                            <div className="linha-menu"></div>
                             <MenuItem
+                                color={"#5B89AD"}
+                                fontWeight={800}
+                                textShadow={" 0px 2px 4px #FFFFFF"}
                                 justifyContent="center"
                                 bg={"transparent"}
                                 as='a'
-                                href='#landing-doctors-global'>Nossos Médicos</MenuItem>
+                                href=''>Nossos Médicos</MenuItem>
 
+                            <div className="linha-menu"></div>
                             <MenuItem
+                                color={"#5B89AD"}
+                                fontWeight={800}
+                                textShadow={" 0px 2px 4px #FFFFFF"}
                                 justifyContent="center"
                                 bg={"transparent"}
                                 as='a'
-                                href="#landing-health-global">Planos de Saúde</MenuItem>
+                                href="">Planos de Saúde</MenuItem>
 
                         </MenuList>
                     </Menu>
@@ -92,28 +107,45 @@ function NavbarLanding() {
                         <Image src={IconLogin} alt='Icone de Login' className="img-icon-login" />
                     </Flex>
 
-                    <MenuList minW={"110px"} bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"} border={"none"}>
+                    <MenuList minW={"110px"}
+                        bg={" rgba(240, 246, 254, 0.5)"}
+                        backdropFilter={"blur(4px)"}
+                        border={"none"}
+                        boxShadow={"1px 2px 5px #004F94"}>
                         <MenuItem
+                            color={"#5B89AD"}
+                            fontWeight={800}
+                            textShadow={" 0px 2px 4px #FFFFFF"}
                             justifyContent="center"
                             bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"}
                             as='a'
                             href='#'
                             onClick={() => navigate('/login-pacient')}
-                            >Acess/Paciente</MenuItem>
+                        >Acess/Paciente</MenuItem>
+
+                        <div className="linha-menu"></div>
 
                         <MenuItem
+                            color={"#5B89AD"}
+                            fontWeight={800}
+                            textShadow={" 0px 2px 4px #FFFFFF"}
                             justifyContent="center"
                             bg={"transparent"}
                             as='a' href='#'
                             onClick={() => navigate('/login-medico')}>Acess/Médico</MenuItem>
 
+                        <div className="linha-menu"></div>
+
                         <MenuItem
+                            color={"#5B89AD"}
+                            fontWeight={800}
+                            textShadow={" 0px 2px 4px #FFFFFF"}
                             justifyContent="center"
                             bg={"transparent"}
                             as='a'
                             href='#'
                             onClick={() => navigate('/login-medico')}
-                            >Acess/Adm</MenuItem>
+                        >Acess/Adm</MenuItem>
 
                     </MenuList>
                 </Menu>

@@ -1,7 +1,6 @@
 import NavbarLanding from "../../components/NavbarLanding/NavbarLanding";
 import Girl from "../../assets/images/girl-landingPage.svg";
 import Airplane from "../../assets/images/airplane.svg";
-import EclipsePink1 from "../../assets/images/eclipsePink1.svg"
 import BgEspec from "../../assets/images/bg-especialidades.svg"
 import BgEspecDesk from "../../assets/images/bg-especialidades.svg"
 import IconEsq from "../../assets/images/icon-arrowDown.svg"

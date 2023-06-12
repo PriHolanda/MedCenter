@@ -1,4 +1,4 @@
-import { Avatar, Flex, Image, Wrap, WrapItem } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { useMediaQuery } from "@chakra-ui/react";
 import Logo from "../../assets/images/logo.svg"
@@ -37,20 +37,35 @@ function NavbarSistem() {
                             <div className="linha-patient-home"></div>
                         </Flex>
 
-                        <MenuList minW={"153px"} bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"} border={"none"}>
+                        <MenuList minW={"153px"}
+                            bg={" rgba(240, 246, 254, 0.5)"}
+                            backdropFilter={"blur(4px)"}
+                            border={"none"}
+                            boxShadow={"1px 2px 5px #004F94"}>
                             <MenuItem
+                                color={"#5B89AD"}
+                                fontWeight={800}
+                                textShadow={" 0px 2px 4px #FFFFFF"}
                                 justifyContent="center"
                                 bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"}
                                 as='a'
                                 href=''>Agendamentos</MenuItem>
 
+                            <div className="linha-menu"></div>
                             <MenuItem
+                                color={"#5B89AD"}
+                                fontWeight={800}
+                                textShadow={" 0px 2px 4px #FFFFFF"}
                                 justifyContent="center"
                                 bg={"transparent"}
                                 as='a'
                                 href=''>Planos de Saúde</MenuItem>
 
+                            <div className="linha-menu"></div>
                             <MenuItem
+                                color={"#5B89AD"}
+                                fontWeight={800}
+                                textShadow={" 0px 2px 4px #FFFFFF"}
                                 justifyContent="center"
                                 bg={"transparent"}
                                 as='a'
@@ -82,16 +97,36 @@ function NavbarSistem() {
 
 
                 <div className="configurations">
-                    <Wrap>
-                        <WrapItem>
-                            <Avatar name='Priscila Holanda' src={User} />
-                        </WrapItem>
-                    </Wrap>
+                    <img src={User} className="avatar" />
 
                     <div className="configurations-container">
-                        <img src={IconNotifications} alt="" />
-                        <img src={IconConfigurations} alt="" />
-                        <img src={IconLogin} alt="" />
+                        <Image src={IconNotifications} className="icons-configurations"
+                            css={{
+                                "@media screen and (min-width: 1024px)": {
+                                    width: "24px",
+                                },
+                                "@media screen and (min-width: 1336px)": {
+                                    width: "28px",
+                                },
+                            }} />
+                        <Image src={IconConfigurations} className="icons-configurations" css={{
+                            "@media screen and (min-width: 1024px)": {
+                                width: "35px",
+                            },
+                            "@media screen and (min-width: 1336px)": {
+                                width: "39px",
+                            },
+                        }} />
+                        <Image src={IconLogin} className="icons-configurations" css={{
+                            width: "24px",
+
+                            "@media screen and (min-width: 1024px)": {
+                                width: "37px",
+                            },
+                            "@media screen and (min-width: 1336px)": {
+                                width: "41px",
+                            },
+                        }} />
                     </div>
                 </div>
             </nav>

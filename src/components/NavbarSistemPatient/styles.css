@@ -1,6 +1,7 @@
 .navbar-patient-global {
     background: transparent;
     position: relative;
+    z-index: 1;
 }
 
 .navbar-patient-container {
@@ -37,10 +38,10 @@
 
 .configurations{
     display: flex;
-    align-items: center;
 }
 
 .configurations-container{
+    margin: 5px 0px;
     display: flex;
     align-items: center;
     width: 76px;
@@ -50,4 +51,58 @@
     border-radius: 16px;
     justify-content: space-between;
     padding: 8px;
+}
+
+.linha-menu{
+    background: linear-gradient(90deg, #97CEF9 8.17%, #D296EF 81.47%, #D194EF 94.12%);
+    width: 100%;
+    height: 1px;
+}
+
+@media(min-width: 1024px){
+    .img-logo{
+        width: 180px;
+    }
+
+    .item{
+        font-size: 17px;
+    }
+
+    .avatar{
+        width: 70px;
+    }
+
+    .configurations-container{
+        width: 120px;
+        height: 50px;
+        gap: 5px;
+    }
+    .navbar-patient-item {
+        gap: 25px;
+        display: flex;
+    }
+
+}
+
+@media(min-width: 1336px){
+    .item{
+        font-size: 18px;
+    }
+
+    .avatar{
+        width: 80px;
+    }
+
+    .configurations-container{
+        width: 140px;
+        height: 60px;
+        gap: 5px;
+        border-radius: 27px;
+    }
+    .navbar-patient-item {
+        gap: 40px;
+        display: flex;
+    }
+
+    
 }

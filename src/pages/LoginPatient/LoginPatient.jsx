@@ -18,7 +18,7 @@ function LoginPatient() {
         <div className="login-patient-global">
             <NavbarLogin />
 
-            <div className="eclipseBlue-patient"></div>
+            <div className="eclipseBlue-patient-login"></div>
 
             {isSmallerThanMd ? (
                 <Image src={BgLogin} alt="Imagem de fundo login-pacientes" pos={"absolute"} />
@@ -104,7 +104,7 @@ function LoginPatient() {
                             />
                         </InputGroup>
 
-                        <button className="button-login-patient">Entrar</button>
+                        <button className="button-login-patient" onClick={() => navigate('/patient')}>Entrar</button>
                     </Flex>
 
 
@@ -119,7 +119,7 @@ function LoginPatient() {
                 src={BabyLogin}
                 className="img-baby-login"
             />
-            <div className="eclipsePink-patient"></div>
+            <div className="eclipsePink-patient-login"></div>
         </div>
     )
 }

@@ -5,7 +5,7 @@
     background-color: #F2FAFF;
 }
 
-.eclipseBlue-patient {
+.eclipseBlue-patient-login {
     position: absolute;
     width: 125vh;
     height: 831px;
@@ -108,7 +108,7 @@
     cursor: pointer;
 }
 
-.eclipsePink-patient {
+.eclipsePink-patient-login {
     position: fixed;
     width: 701.91px;
     height: 699.74px;

@@ -31,9 +31,7 @@
 
 
 @media(min-width: 1024px) {
-    .img-icon-login{
-        width: 20px;
-    }
+    
     .linha-out {
         width: 80px;
         height: 4px;
