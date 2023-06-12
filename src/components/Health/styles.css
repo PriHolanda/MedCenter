@@ -172,54 +172,6 @@
         padding: 17px 0px 0px 7px;
     }
 
-    .newborn-plan {
-        width: 340px;
-        height: 196px;
-    }
-
-    .name-newborn {
-        font-size: 18px;
-    }
-
-    .health-informations-newborn {
-        font-size: 15px;
-    }
-
-    .health-price-newborn {
-        font-size: 15px
-    }
-
-    .price-newborn {
-        font-size: 18px;
-    }
-
-    .button-health {
-        width: 147px;
-        height: 39px;
-        line-height: 19px;
-
-    }
-
-    .details-blue1 {
-        position: relative;
-        left: 226px;
-        bottom: 119px;
-        width: 23px;
-    }
-
-    .details-blue2 {
-        position: relative;
-        left: 11px;
-        top: -10px;
-        width: 35px;
-    }
-
-    .baby-health {
-        position: relative;
-        bottom: 192px;
-        left: 154px;
-        width: 185px;
-    }
 
     .coverage-plan {
         width: 340px;
@@ -280,52 +232,54 @@
         flex-direction: column;
     }
 
+    
     .newborn-plan {
-        width: 402px;
-        height: 220px;
+        width: 340px;
+        height: 196px;
     }
 
     .name-newborn {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .health-informations-newborn {
-        font-size: 18px;
-        margin: 0 132px 0 0;
+        font-size: 15px;
     }
 
     .health-price-newborn {
-        font-size: 18px
+        font-size: 15px
     }
 
     .price-newborn {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .button-health {
-        width: 155px;
-        height: 42px;
-        font-size: 17px;
+        width: 147px;
+        height: 39px;
+        line-height: 19px;
+
     }
 
     .details-blue1 {
         position: relative;
-        left: 278px;
-        bottom: 136px;
-        width: 27px;
+        left: 226px;
+        bottom: 119px;
+        width: 23px;
     }
 
     .details-blue2 {
         position: relative;
-        top: -21px;
-        width: 42px;
+        left: 11px;
+        top: -10px;
+        width: 35px;
     }
 
     .baby-health {
         position: relative;
-        bottom: 219px;
-        left: 203px;
-        width: 198px;
+        bottom: 192px;
+        left: 154px;
+        width: 185px;
     }
 
     .coverage-plan {

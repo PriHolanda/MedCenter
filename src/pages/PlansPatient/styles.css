@@ -1,0 +1,535 @@
+.plans-patient-global {
+    height: 100vh;
+    background: #F2FAFF;
+    overflow-x: hidden;
+}
+
+.plans-patient-container {
+    padding: 0 25px;
+    z-index: 1;
+    position: relative;
+}
+
+.eclipseBlue-plansPatient {
+    position: absolute;
+    width: 125vh;
+    height: 831px;
+    left: -289px;
+    top: -453px;
+    background: radial-gradient(41.7% 41.71% at 49.95% 54.05%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
+}
+
+.heading-myplans {
+    background-image: url(../../assets/images/icon-myplans.svg);
+    background-repeat: no-repeat;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 34px;
+    color: #D352FA;
+    text-shadow: 0px 5px 4px #FFFFFF;
+    padding: 0 40px;
+    margin: 30px 0 0;
+}
+
+.myplan-baby {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0 0;
+}
+
+.newborn-plan-patient {
+    width: 266px;
+    height: 168px;
+    background: #FFFFFF;
+    border: 0.2px solid #769DBB;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.informations-newborn-patient {
+    padding: 7px 0px 0px 7px;
+}
+
+.name-newborn-patient {
+    font-weight: 800;
+    font-size: 15px;
+    color: #5B89AD;
+}
+
+
+.health-informations-newborn-patient {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #96C9F5;
+    margin: 0 112px 0 0;
+}
+
+.health-price-newborn-patient {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #96C9F5;
+}
+
+.price-newborn-patient {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 34px;
+    color: #5B89AD;
+}
+
+.details-blue1-patient {
+    position: relative;
+    left: 175px;
+    bottom: 125px;
+
+}
+
+.details-blue2-patient {
+    position: relative;
+    left: 9px;
+    top: -24px;
+
+}
+
+.baby-health-patient {
+    position: relative;
+    bottom: 179px;
+    left: 108px;
+    border-radius: 0 0 15px 0;
+}
+
+
+.buttons-plans-patient {
+    display: flex;
+    gap: 22px;
+}
+
+.button-myplan {
+    width: 121px;
+    height: 36px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5B89AD;
+    margin: 20px 0;
+}
+
+.status-myplan {
+    width: 95px;
+    height: 25px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-weight: 900;
+    font-size: 9px;
+    line-height: 12px;
+    color: #5B89AD;
+    padding: 6px 9px;
+    margin: 0 40px;
+}
+
+.check-plans-patient {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A9FBC;
+    margin: 47px 0 30px;
+}
+
+.check-emphasis-plans-patient {
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    color: #D352FA;
+    text-shadow: 0px 5px 4px #FFFFFF;
+}
+
+.text-plans-patient {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7A9FBC;
+    margin: 20px 0;
+}
+
+.text-emphasis-plans-patient {
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    color: #D352FA;
+    text-shadow: 0px 5px 4px #FFFFFF;
+}
+
+.discount-plan-patient-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount-plan-patient {
+    width: 58px;
+    height: 58px;
+    position: relative;
+    left: 130px;
+    top: -40px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 31px;
+    color: #5B89AD;
+    text-shadow: 9px 1px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    padding: 14px 11px;
+}
+
+.eclipsePink-plansPatient {
+    position: fixed;
+    width: 701.91px;
+    height: 699.74px;
+    left: 42px;
+    top: 135px;
+    background: radial-gradient(45.74% 45.74% at 47.47% 50.03%, rgba(175, 25, 221, 0.495) 0%, rgba(194, 167, 221, 0.015) 100%);
+    z-index: -1;
+}
+
+@media(min-width: 768px) {
+    .myplan-container {
+        display: flex;
+        gap: 65px;
+        margin: 30px 0;
+    }
+
+    .myplan-baby {
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .newborn-plan-patient {
+        width: 430px;
+        height: 167px;
+    }
+
+    .status-myplan {
+        width: 95px;
+        height: 25px;
+        font-size: 9px;
+        margin: 0;
+    }
+
+    .check-plans-patient {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .check-emphasis-plans-patient {
+        font-size: 23px;
+
+    }
+
+    .discount-plan-patient-container {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 50px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .discount-plan-patient {
+        position: absolute;
+        left: 301px;
+        top: 443px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .myplan-container {
+        display: flex;
+        gap: 65px;
+        margin: 30px 0;
+    }
+
+    .myplan-baby {
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .heading-myplans {
+        background-size: 50px;
+        font-size: 30px;
+        padding: 8px 57px;
+    }
+
+    .newborn-plan-patient {
+        width: 525px;
+        height: 220px;
+    }
+
+    .informations-newborn-patient {
+        padding: 13px 51px 0px 7px;
+    }
+
+    .name-newborn-patient {
+        font-size: 22px;
+    }
+
+    .health-informations-newborn-patient {
+        font-size: 17px;
+    }
+
+    .health-price-newborn-patient {
+        font-size: 17px;
+        margin: 13px 0 0;
+    }
+
+    .price-newborn-patient {
+        font-size: 20px;
+    }
+
+    .details-blue1 {
+        position: relative;
+        left: 245px;
+        bottom: 123px;
+        width: 21px;
+    }
+
+    .details-blue2 {
+        position: relative;
+        left: 11px;
+        top: -12px;
+        width: 33px;
+    }
+
+    .baby-health {
+        position: relative;
+        bottom: 200px;
+        left: 163px;
+        border-radius: 0 0 15px 0;
+        width: 190px;
+    }
+
+    .button-myplan {
+        width: 142px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    .status-myplan {
+        width: 129px;
+        height: 30px;
+        font-size: 12px;
+        margin: 0 2px;
+        padding: 10px 12px;
+    }
+
+    .check-plans-patient {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .check-emphasis-plans-patient {
+        font-size: 27px;
+
+    }
+
+    .text-plans-patient {
+        font-size: 22px;
+    }
+
+    .text-emphasis-plans-patient {
+        font-size: 27px;
+    }
+
+    .discount-plan-patient-container {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 50px;
+        gap: 30px;
+        justify-content: center;
+        width: 105vw;
+    }
+
+    .discount-plan-patient {
+        position: absolute;
+        left: 289px;
+        top: 495px;
+    }
+
+    .discount-plan-patient2 {
+        width: 58px;
+        height: 58px;
+        position: relative;
+        right: 428px;
+        top: 76px;
+        background: #FFFFFF;
+        box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.3);
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 31px;
+        color: #5B89AD;
+        text-shadow: 9px 1px 4px rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        padding: 14px 11px;
+    }
+
+    .img-arrown-myplan {
+        width: 40px;
+    }
+
+    .eclipsePink-plansPatient {
+        position: fixed;
+        left: 541px;
+        top: 346px;
+    }
+}
+
+@media(min-width: 1336px) {
+    .myplan-container {
+        display: flex;
+        gap: 65px;
+        margin: 30px 0;
+    }
+
+    .myplan-baby {
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+        gap: 47px;
+    }
+
+    .heading-myplans {
+        background-size: 50px;
+        font-size: 30px;
+        padding: 8px 57px;
+    }
+
+    .newborn-plan-patient {
+        width: 635px;
+        height: 300px;
+    }
+
+    .informations-newborn-patient {
+        padding: 19px 60px 0px 13px;
+    }
+
+    .name-newborn-patient {
+        font-size: 30px;
+    }
+
+    .health-informations-newborn-patient {
+        font-size: 23px;
+        line-height: 25px;
+    }
+
+    .health-price-newborn-patient {
+        font-size: 23px;
+        margin: 13px 0 0;
+    }
+
+    .price-newborn-patient {
+        font-size: 27px;
+    }
+
+    .details-blue1 {
+        position: relative;
+        left: 320px;
+        bottom: 171px;
+        width: 28px;
+    }
+
+    .details-blue2 {
+        position: relative;
+        left: 15px;
+        top: -12px;
+        width: 44px;
+    }
+
+    .baby-health {
+        position: relative;
+        bottom: 254px;
+        left: 226px;
+        border-radius: 0 0 15px 0;
+        width: 236px;
+    }
+
+    .buttons-plans-patient {
+        gap: 40px;
+    }
+
+    .button-myplan {
+        width: 201px;
+        height: 61px;
+        font-size: 26px;
+    }
+
+    .status-myplan {
+        width: 176px;
+        height: 41px;
+        font-size: 17px;
+        margin: 0 6px;
+        padding: 15px 15px;
+
+    }
+
+    .check-plans-patient {
+        font-size: 28px;
+        margin: 0;
+        line-height: 32px;
+    }
+
+    .check-emphasis-plans-patient {
+        font-size: 32px;
+
+    }
+
+    .text-plans-patient {
+        font-size: 28px;
+    }
+
+    .text-emphasis-plans-patient {
+        font-size: 36px;
+    }
+
+    .discount-plan-patient-container {
+        display: flex;
+        flex-direction: row;
+        margin: 40px 0 50px;
+        gap: 30px;
+        justify-content: center;
+        width: 105vw;
+    }
+
+    .discount-plan-patient {
+        position: absolute;
+        left: 406px;
+        top: 652px;
+    }
+
+    .discount-plan-patient2 {
+        position: relative;
+        right: 515px;
+        top: 94px;
+    }
+
+    .img-arrown-myplan {
+        width: 65px;
+    }
+
+    .eclipsePink-plansPatient {
+        position: fixed;
+        left: 827px;
+        top: 398px;
+    }
+}

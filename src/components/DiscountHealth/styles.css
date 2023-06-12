@@ -1,0 +1,132 @@
+.discount-newborn-plan-patient {
+    width: 266px;
+    height: 168px;
+    background: #FFFFFF;
+    border: 0.2px solid #769DBB;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.discount-informations-newborn-patient {
+    padding: 7px 0px 0px 7px;
+}
+
+.discount-name-newborn-patient {
+    font-weight: 800;
+    font-size: 15px;
+    color: #5B89AD;
+}
+
+
+.discount-health-informations-newborn-patient {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #96C9F5;
+    margin: 0 112px 0 0;
+}
+
+.discount-health-price-newborn-patient {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #96C9F5;
+}
+
+.discount-price-newborn-patient {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 34px;
+    color: #5B89AD;
+}
+
+.discount-details-blue1-patient {
+    position: relative;
+    left: 175px;
+    bottom: 125px;
+
+}
+
+.details-blue2-patient {
+    position: relative;
+    left: 9px;
+    top: -24px;
+
+}
+
+.baby-health-patient {
+    position: relative;
+    bottom: 179px;
+    left: 108px;
+    border-radius: 0 0 15px 0;
+}
+
+@media(min-width: 768px) {
+    .discount-details-blue1 {
+        position: relative;
+        top: -123px;
+        left: 173px;
+    }
+
+    .discount-baby-health {
+        position: relative;
+        width: 142px;
+        border-radius: 0px 0px 15px 0px;
+        left: 122px;
+        bottom: 164px;
+    }
+}
+
+@media(min-width: 1336px) {
+    .discount-newborn-plan-patient {
+        width: 322px;
+        height: 208px;
+    }
+
+    .discount-informations-newborn-patient {
+        padding: 18px 19px 0px 13px;
+    }
+
+
+    .discount-name-newborn-patient {
+        font-size: 18px;
+    }
+
+    .discount-health-informations-newborn-patient {
+        font-size: 15px;
+    }
+
+    .discount-health-price-newborn-patient {
+        font-size: 15px
+    }
+
+    .discount-price-newborn-patient {
+        font-size: 18px;
+    }
+
+    .discount-details-blue1 {
+        position: relative;
+        top: -117px;
+        left: 217px;
+        width: 26px;
+    }
+
+    .discount-details-blue2 {
+        position: relative;
+        left: 11px;
+        top: -10px;
+        width: 37px;
+    }
+
+    .discount-baby-health {
+        position: relative;
+        width: 159px;
+        left: 161px;
+        bottom: 177px;
+    }
+
+}

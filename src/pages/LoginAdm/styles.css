@@ -1,0 +1,315 @@
+.login-doctor-global {
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: #F2FAFF;
+}
+
+.eclipseBlue-doctor {
+    position: absolute;
+    width: 125vh;
+    height: 831px;
+    left: -289px;
+    top: -453px;
+    background: radial-gradient(41.7% 41.71% at 49.95% 54.05%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
+}
+
+.login-doctor-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card-bg {
+    background: linear-gradient(2.37deg, rgba(150, 203, 246, 0.5) -11.42%, rgba(196, 225, 249, 0.5) 64.47%);
+    backdrop-filter: blur(2px);
+    border-radius: 35px;
+    width: 290.5px;
+    height: 300.15px;
+    position: absolute;
+    left: 21px;
+    top: 128px;
+}
+
+.card-main {
+    width: 300px;
+    height: 320px;
+    background: linear-gradient(2.37deg, #9BCCF5 -0.14%, #FFFFFF 73.54%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.heading-welcome {
+    margin: 16px 0 13px;
+    position: relative;
+}
+
+.welcome-bg {
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: #578BB7;
+    text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-main {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: #9BCDF9;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.4);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 2px;
+}
+
+.button-login-doctor {
+    width: 80px;
+    height: 35.37px;
+    left: 162px;
+    top: 401.68px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #6190B4;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.35);
+}
+
+.recover-password-doctor {
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 21px 0 5px;
+}
+
+.registration-doctor {
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.sing-up-doctor {
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 18px;
+    color: #FFF500;
+    cursor: pointer;
+}
+
+.eclipsePink-doctor {
+    position: fixed;
+    width: 701.91px;
+    height: 699.74px;
+    left: 42px;
+    top: 135px;
+    background: radial-gradient(45.74% 45.74% at 47.47% 50.03%, rgba(175, 25, 221, 0.495) 0%, rgba(194, 167, 221, 0.015) 100%);
+}
+
+.img-doctor-login {
+    position: absolute;
+    top: 364px;
+    left: 165px;
+    z-index: 1;
+
+}
+
+@media(min-width: 768px) {
+    .card-bg {
+        width: 460px;
+        height: 316px;
+        left: 107px;
+        position: absolute;
+    }
+
+    .card-main {
+        width: 505px;
+        height: 336px;
+    }
+
+    .img-icons {
+        position: absolute;
+        top: 14px;
+    }
+
+    .eclipsePink-doctor {
+        position: fixed;
+        left: 355px;
+    }
+
+    .img-doctor-login {
+        position: absolute;
+        top: 214px;
+        left: 503px;
+    }
+
+    .button-login-doctor {
+        width: 95px;
+    }
+
+}
+
+@media(min-width: 1024px) {
+    .card-bg {
+        width: 572px;
+        height: 372px;
+        left: 175px;
+        top: 155px;
+        position: absolute;
+    }
+
+    .card-main {
+        width: 620px;
+        height: 392px;
+    }
+
+    .heading-welcome {
+        margin: 29px 0 23px;
+    }
+
+    .welcome-bg {
+        font-size: 40px;
+    }
+
+    .welcome-main {
+        font-size: 40px;
+        position: absolute;
+        left: 4px;
+    }
+
+    .img-icons {
+        position: absolute;
+        width: 18px;
+        top: 19px;
+        left: 16px;
+    }
+
+    .eclipseBlue-doctor {
+        position: absolute;
+        left: -333px;
+        top: -368px;
+    }
+
+    .eclipsePink-doctor {
+        position: fixed;
+        left: 594px;
+        top: 352px;
+    }
+
+    .img-doctor-login {
+        position: absolute;
+        top: 294px;
+        left: 659px;
+        width: 307px;
+    }
+
+    .button-login-doctor {
+        width: 130px;
+        height: 42px;
+        font-size: 19px;
+        border-radius: 25px;
+    }
+
+    .recover-password-doctor {
+        font-size: 20px;
+        margin: 24px 0 10px;
+    }
+
+    .registration-doctor {
+        font-size: 20px;
+    }
+
+    .sing-up-doctor {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 1336px) {
+    .login-doctor-cards {
+        padding: 100px;
+    }
+
+    .card-bg {
+        width: 657px;
+        height: 445px;
+        left: 250px;
+        top: 267px;
+        position: absolute;
+    }
+
+    .card-main {
+        width: 766px;
+        height: 467px;
+    }
+
+    .heading-welcome {
+        margin: 39px 0 36px;
+    }
+
+    .welcome-bg {
+        font-size: 42px;
+    }
+
+    .welcome-main {
+        font-size: 42px;
+        position: absolute;
+        left: 4px;
+    }
+
+    .img-icons {
+        position: absolute;
+        top: 22px;
+        width: 20px;
+    }
+
+    .eclipseBlue-doctor {
+        position: absolute;
+        left: -430px;
+        top: -410px;
+    }
+
+    .eclipsePink-doctor {
+        position: fixed;
+        left: 836px;
+        top: 350px;
+    }
+
+    .img-doctor-login {
+        position: absolute;
+        top: 360px;
+        left: 836px;
+        width: 408px;
+    }
+
+    .button-login-doctor {
+        width: 135px;
+        height: 49px;
+        font-size: 21px;
+    }
+
+    .recover-password-doctor {
+        font-size: 21px;
+        margin: 37px 0 10px;
+    }
+
+    .registration-doctor {
+        font-size: 21px;
+    }
+
+    .sing-up-doctor {
+        font-size: 21px;
+    }
+
+}

@@ -144,7 +144,7 @@ function NavbarLanding() {
                             bg={"transparent"}
                             as='a'
                             href='#'
-                            onClick={() => navigate('/login-medico')}
+                            onClick={() => navigate('/login-adm')}
                         >Acess/Adm</MenuItem>
 
                     </MenuList>

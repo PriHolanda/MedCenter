@@ -1,13 +1,16 @@
-import { Image } from "@chakra-ui/react"
-import NavbarSistem from "../../components/NavbarSistemPatient/NavbarSistemPatient"
 import GirlPatient from "../../assets/images/girl-patient.svg"
 import Airplane from "../../assets/images/airplane.svg";
+import NavbarSistemPatient from "../../components/NavbarSistemPatient/NavbarSistemPatient";
+import { Image } from "@chakra-ui/react"
+import { useNavigate } from "react-router-dom";
 import "./styles.css"
 
 function Patient() {
+    const navigate = useNavigate();
+
     return (
-        <div className="patient-global">
-            <NavbarSistem />
+        <div className="patient-global">    
+            <NavbarSistemPatient />
 
             <div className="eclipseBlue-patient"></div>
 
@@ -19,10 +22,9 @@ function Patient() {
                     <p className="introducion-patient">Sabemos que cuidar de nossas crianças requer atenção especial e estamos prontos para oferecer o melhor atendimento possível!</p>
                 </div>
 
-
             </div>
             <div className="button-patient-container">
-                <button className="button-patient">Agendar consulta</button>
+                <button className="button-patient" onClick={() => navigate('/schedule-patient')}>Agendar consulta</button>
             </div>
 
             <div className="eclipsePink-patient"></div>

@@ -8,11 +8,9 @@ import IconConfigurations from "../../assets/images/icon-configurations.svg"
 import IconLogin from "../../assets/images/icon-login.svg"
 import User from "../../assets/images/avatar.svg"
 import "./styles.css"
-import { useNavigate } from "react-router-dom";
 
-function NavbarSistemPatient() {
+function NavbarSistem() {
     const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
-    const navigate = useNavigate();
 
     return (
         <div className="navbar-patient-global">
@@ -50,7 +48,8 @@ function NavbarSistemPatient() {
                                 textShadow={" 0px 2px 4px #FFFFFF"}
                                 justifyContent="center"
                                 bg={"linear-gradient(180deg, rgba(214, 168, 241, 0.8) 0%, rgba(214, 168, 241, 0) 100%)"}
-                                onClick={() => navigate('/schedule-patient')}>Agendamentos</MenuItem>
+                                as='a'
+                                href=''>Agenda</MenuItem>
 
                             <div className="linha-menu"></div>
                             <MenuItem
@@ -60,7 +59,7 @@ function NavbarSistemPatient() {
                                 justifyContent="center"
                                 bg={"transparent"}
                                 as='a'
-                                onClick={() => navigate('/plans-patient')}>Planos de Saúde</MenuItem>
+                                href=''>Histórico</MenuItem>
 
                             <div className="linha-menu"></div>
                             <MenuItem
@@ -80,13 +79,13 @@ function NavbarSistemPatient() {
                     <div className="navbar-patient-list">
                         <ul className="navbar-patient-item">
                             <li className="item">
-                                <a onClick={() => navigate('/patient')}>Home</a>
+                                <a href="">Home</a>
                             </li>
                             <li className="item">
-                                <a onClick={() => navigate('/schedule-patient')}>Agendamentos</a>
+                                <a href="">Agenda</a>
                             </li>
                             <li className="item">
-                                <a  onClick={() => navigate('/plans-patient')}>Planos de Saúde</a>
+                                <a href="">Histórico</a>
                             </li>
                             <li className="item">
                                 <a href="">Pagamentos</a>
@@ -136,4 +135,4 @@ function NavbarSistemPatient() {
 }
 
 
-export default NavbarSistemPatient;
+export default NavbarSistem;

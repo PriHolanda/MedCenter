@@ -10,7 +10,7 @@ import "./styles.css"
 import { useNavigate } from "react-router-dom";
 
 
-function LoginMed() {
+function LoginAdm() {
     const navigate = useNavigate();
     const [isSmallerThanMd] = useMediaQuery("(max-width: 767px)");
 
@@ -104,7 +104,7 @@ function LoginMed() {
                             />
                         </InputGroup>
 
-                        <button className="button-login-patient" onClick={() => navigate('/doctor')}>Entrar</button>
+                        <button className="button-login-patient" onClick={() => navigate('')}>Entrar</button>
                     </Flex>
 
 
@@ -124,4 +124,4 @@ function LoginMed() {
     )
 }
 
-export default LoginMed;
+export default LoginAdm;

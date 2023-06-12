@@ -1,0 +1,452 @@
+.schedule-patient-global {
+    background-color: #F2FAFF;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.eclipseBlue-schedule-patient {
+    position: absolute;
+    width: 125vh;
+    height: 831px;
+    left: -289px;
+    top: -453px;
+    background: radial-gradient(41.7% 41.71% at 49.95% 54.05%, rgba(87, 174, 250, 0.5) 0%, rgba(136, 191, 232, 0.02) 85.11%);
+}
+
+.button-return-schedule-patient {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.schedule-patient-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.introducion-schedule-patient {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #7A9FBC;
+}
+
+.hello-schedule-patient {
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 37px;
+    color: #D352FA;
+    text-shadow: 0px 5px 4px #FFFFFF;
+}
+
+.schedule-patient-information {
+    margin: 63px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.schedule-patient-input-agrupament {
+    display: flex;
+    gap: 36px;
+
+}
+
+.schedule-patient-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.schedule-patient-input-agrupament1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.schedule-patient-input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-schedule-patient {
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A9FBC;
+}
+
+.input-schedule-patient {
+    width: 135px;
+    height: 41px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5B89AD;
+    padding: 8px;
+}
+
+.input-date-schedule-patient {
+    width: 135px;
+    height: 41px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5B89AD;
+    background-image: url("../../assets/images/calendar-input.svg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    padding: 10px;
+}
+
+.input-time-schedule-patient {
+    width: 135px;
+    height: 41px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5B89AD;
+    background-image: url("../../assets/images/time-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    padding: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.calendar-month {
+    margin: 56px 0 0;
+    display: flex;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #578BB7;
+    justify-content: center;
+}
+
+.month {
+    margin: 0 130px 0 0;
+}
+
+.calendar-img {
+    width: 290px;
+}
+
+.button-schedule-patient-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-schedule-patient {
+    width: 156px;
+    height: 41px;
+    background: linear-gradient(178.8deg, #FFFFFF 1.02%, #FCF4FE 62.97%, #EEBEFC 90.23%, #D667F7 119.96%, #CE49F6 119.97%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #AF19DD;
+    margin: 24px 0 34px;
+}
+
+.eclipsePink-schedule-patient {
+    position: fixed;
+    width: 701.91px;
+    height: 699.74px;
+    left: 42px;
+    top: 135px;
+    background: radial-gradient(45.74% 45.74% at 47.47% 50.03%, rgba(175, 25, 221, 0.495) 0%, rgba(194, 167, 221, 0.015) 100%);
+
+}
+
+@media(min-width: 768px) {
+    .button-return-schedule-patient {
+        position: relative;
+        z-index: 2;
+    }
+
+    .schedule-patient-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .women-schedule {
+        transform: scaleX(1);
+        position: relative;
+        top: -44px;
+    }
+
+    .introducion-schedule-patient {
+        padding: 0 28px 0;
+        font-size: 16px;
+    }
+
+    .schedule-patient-information {
+        margin: 63px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .schedule-patient-input-agrupament {
+        display: flex;
+        gap: 63px;
+    }
+
+    .schedule-patient-input-container {
+        display: flex;
+        gap: 23px;
+    }
+
+    .schedule-patient-input-agrupament1 {
+        display: flex;
+        gap: 30px;
+    }
+
+    .schedule-patient-input-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-schedule-patient {
+        width: 143px;
+        height: 41px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+
+    .icon-calendar {
+        width: 30px;
+    }
+
+    .calendar-month {
+        margin: 0;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .month {
+        margin: 0 28px 0 0;
+    }
+
+    .calendar-img {
+        width: 185px;
+    }
+
+    .button-schedule-patient {
+        width: 135px;
+        height: 36px;
+        font-size: 13px;
+        margin: 36px 0px 35px;
+    }
+
+    .eclipsePink-schedule-patient {
+        position: fixed;
+        left: 296px;
+        top: 222px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .button-return-schedule-patient {
+        position: relative;
+        z-index: 2;
+        width: 30px;
+    }
+
+    .women-schedule {
+        position: relative;
+        top: -63px;
+        width: 730px;
+    }
+
+    .introducion-schedule-patient {
+        padding: 0 100px 0;
+        font-size: 19px;
+    }
+
+    .hello-schedule-patient {
+        font-size: 29px;
+    }
+
+    .schedule-patient-input-agrupament {
+        display: flex;
+        gap: 109px;
+    }
+
+    .schedule-patient-input-container {
+        display: flex;
+        gap: 46px;
+    }
+
+    .schedule-patient-input-agrupament1 {
+        display: flex;
+        gap: 40px;
+    }
+
+    .label-schedule-patient {
+        font-size: 18px;
+    }
+
+    .input-schedule-patient {
+        width: 195px;
+        height: 53px;
+        font-size: 18px;
+    }
+
+    .input-date-schedule-patient {
+        width: 195px;
+        height: 53px;
+        font-size: 18px;
+        background-size: 25px;
+    }
+
+    .input-time-schedule-patient {
+        width: 195px;
+        height: 53px;
+        font-size: 18px;
+        background-size: 25px;
+    }
+
+    .icon-calendar {
+        width: 38px;
+    }
+
+    .calendar-month {
+        font-size: 18px;
+    }
+
+    .month {
+        margin: 0 53px 0 0;
+    }
+
+    .calendar-img {
+        width: 255px;
+    }
+
+    .button-schedule-patient {
+        width: 185px;
+        height: 47px;
+        font-size: 18px;
+        margin: 36px 0px 0px;
+    }
+
+    .eclipsePink-schedule-patient {
+        position: fixed;
+        left: 579px;
+        top: 367px;
+    }
+}
+
+@media(min-width: 1336px) {
+    .button-return-schedule-patient {
+        position: relative;
+        z-index: 2;
+        width: 35px;
+    }
+
+    .women-schedule {
+        position: relative;
+        top: -63px;
+        width: 870px;
+    }
+
+    .introducion-schedule-patient {
+        padding: 0 155px 0;
+        font-size: 22px;
+    }
+
+    .hello-schedule-patient {
+        font-size: 32px;
+    }
+
+    .schedule-patient-input-agrupament {
+        display: flex;
+        gap: 109px;
+    }
+
+    .schedule-patient-input-container {
+        display: flex;
+        gap: 46px;
+    }
+
+    .schedule-patient-input-agrupament1 {
+        display: flex;
+        gap: 40px;
+    }
+
+    .label-schedule-patient {
+        font-size: 20px;
+        margin: 0 0 7px ;
+    }
+
+    .input-schedule-patient {
+        width: 230px;
+        height: 59px;
+        font-size: 20px;
+    }
+
+    .input-date-schedule-patient {
+        width: 230px;
+        height: 59px;
+        font-size: 20px;
+        background-size: 30px;
+    }
+
+    .input-time-schedule-patient {
+        width: 230px;
+        height: 59px;
+        font-size: 20px;
+        background-size: 30px;
+    }
+
+    .icon-calendar {
+        width: 43px;
+    }
+
+    .calendar-month {
+        font-size: 22px;
+    }
+
+    .calendar-img {
+        width: 290px;
+    }
+
+    .button-schedule-patient {
+        width: 207px;
+        height: 50px;
+        font-size: 19px;
+        margin: 36px 0px 32px;
+    }
+
+    .eclipsePink-schedule-patient {
+        position: fixed;
+        left: 840px;
+        top: 367px;
+    }
+}
